@@ -4,7 +4,7 @@ spring:
   datasource:
     username: postgres
     password: admin
-    url: jdbc:postgresql://localhost:5432/eagle_eye_dev
+    url: jdbc:postgresql://localhost:5432/eagle_eye_local
     driver-class-name: org.postgresql.Driver
     tomcat:
       validation-query: "SELECT 1"
